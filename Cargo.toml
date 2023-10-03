@@ -6,6 +6,7 @@ description = "An unofficial command-line client for Namecheap's FastVPN for Lin
 homepage = "https://github.com/CyR1en/fvpnc"
 repository = "https://github.com/CyR1en/fvpnc"
 readme = "README.md"
+license = "MIT"
 keywords = ["openvpn", "vpn", "cli"]
 categories = ["command-line-utilities"]
 
