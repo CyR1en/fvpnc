@@ -1,0 +1,7 @@
+.idea/
+.fleet/
+/debug/
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb

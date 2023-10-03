@@ -1,0 +1,169 @@
+country,city,protocol,filename
+AE,Dubai,UDP,NCVPN-AE-Dubai-UDP.ovpn
+AL,Tirana,UDP,NCVPN-AL-Tirana-UDP.ovpn
+AR,Buenos Aires,UDP,NCVPN-AR-Buenos Aires-UDP.ovpn
+AT,Vienna,UDP,NCVPN-AT-Vienna-UDP.ovpn
+AU,Adelaide,UDP,NCVPN-AU-Adelaide-UDP.ovpn
+AU,Brisbane,UDP,NCVPN-AU-Brisbane-UDP.ovpn
+AU,Melbourne,UDP,NCVPN-AU-Melbourne-UDP.ovpn
+AU,Perth,UDP,NCVPN-AU-Perth-UDP.ovpn
+AU,Sydney,UDP,NCVPN-AU-Sydney-UDP.ovpn
+BE,Brussels,UDP,NCVPN-BE-Brussels-UDP.ovpn
+BG,Sofia,UDP,NCVPN-BG-Sofia-UDP.ovpn
+BR,Sao Paulo,UDP,NCVPN-BR-Sao Paulo-UDP.ovpn
+CA,Montreal,UDP,NCVPN-CA-Montreal-UDP.ovpn
+CA,Toronto,UDP,NCVPN-CA-Toronto-UDP.ovpn
+CA,Vancouver,UDP,NCVPN-CA-Vancouver-UDP.ovpn
+CH,Zurich,UDP,NCVPN-CH-Zurich-UDP.ovpn
+CL,Santiago,UDP,NCVPN-CL-Santiago-UDP.ovpn
+CO,Bogota,UDP,NCVPN-CO-Bogota-UDP.ovpn
+CR,San Jose,UDP,NCVPN-CR-San Jose-UDP.ovpn
+CZ,Prague,UDP,NCVPN-CZ-Prague-UDP.ovpn
+DE,Frankfurt,UDP,NCVPN-DE-Frankfurt-UDP.ovpn
+DK,Copenhagen,UDP,NCVPN-DK-Copenhagen-UDP.ovpn
+EE,Tallinn,UDP,NCVPN-EE-Tallinn-UDP.ovpn
+ES,Madrid,UDP,NCVPN-ES-Madrid-UDP.ovpn
+ES,Valencia,UDP,NCVPN-ES-Valencia-UDP.ovpn
+FI,Helsinki,UDP,NCVPN-FI-Helsinki-UDP.ovpn
+FR,Bordeaux,UDP,NCVPN-FR-Bordeaux-UDP.ovpn
+FR,Marseille,UDP,NCVPN-FR-Marseille-UDP.ovpn
+FR,Paris,UDP,NCVPN-FR-Paris-UDP.ovpn
+GR,Athens,UDP,NCVPN-GR-Athens-UDP.ovpn
+HK,Hong Kong,UDP,NCVPN-HK-Hong Kong-UDP.ovpn
+HR,Zagreb,UDP,NCVPN-HR-Zagreb-UDP.ovpn
+HU,Budapest,UDP,NCVPN-HU-Budapest-UDP.ovpn
+IE,Dublin,UDP,NCVPN-IE-Dublin-UDP.ovpn
+IL,Tel Aviv,UDP,NCVPN-IL-Tel Aviv-UDP.ovpn
+IN,Virtual,UDP,NCVPN-IN-Virtual-UDP.ovpn
+IS,Reykjavik,UDP,NCVPN-IS-Reykjavik-UDP.ovpn
+IT,Milan,UDP,NCVPN-IT-Milan-UDP.ovpn
+JP,Tokyo,UDP,NCVPN-JP-Tokyo-UDP.ovpn
+KR,Seoul,UDP,NCVPN-KR-Seoul-UDP.ovpn
+LU,Luxembourg,UDP,NCVPN-LU-Luxembourg-UDP.ovpn
+LV,Riga,UDP,NCVPN-LV-Riga-UDP.ovpn
+MD,Chisinau,UDP,NCVPN-MD-Chisinau-UDP.ovpn
+MX,Guadalajara,UDP,NCVPN-MX-Guadalajara-UDP.ovpn
+MY,Kuala Lumpur,UDP,NCVPN-MY-Kuala Lumpur-UDP.ovpn
+NL,Amsterdam,UDP,NCVPN-NL-Amsterdam-UDP.ovpn
+NO,Oslo,UDP,NCVPN-NO-Oslo-UDP.ovpn
+NZ,Auckland,UDP,NCVPN-NZ-Auckland-UDP.ovpn
+PE,Lima,UDP,NCVPN-PE-Lima-UDP.ovpn
+PL,Warsaw,UDP,NCVPN-PL-Warsaw-UDP.ovpn
+PT,Lisbon,UDP,NCVPN-PT-Lisbon-UDP.ovpn
+RO,Bucharest,UDP,NCVPN-RO-Bucharest-UDP.ovpn
+RS,Belgrade,UDP,NCVPN-RS-Belgrade-UDP.ovpn
+SE,Stockholm,UDP,NCVPN-SE-Stockholm-UDP.ovpn
+SG,Singapore,UDP,NCVPN-SG-Singapore-UDP.ovpn
+SI,Ljubljana,UDP,NCVPN-SI-Ljubljana-UDP.ovpn
+SK,Bratislava,UDP,NCVPN-SK-Bratislava-UDP.ovpn
+TR,Istanbul,UDP,NCVPN-TR-Istanbul-UDP.ovpn
+TW,Taipei,UDP,NCVPN-TW-Taipei-UDP.ovpn
+UK,Birmingham,UDP,NCVPN-UK-Birmingham-UDP.ovpn
+UK,Glasgow,UDP,NCVPN-UK-Glasgow-UDP.ovpn
+UK,London,UDP,NCVPN-UK-London-UDP.ovpn
+UK,Manchester,UDP,NCVPN-UK-Manchester-UDP.ovpn
+US,Ashburn,UDP,NCVPN-US-Ashburn-UDP.ovpn
+US,Atlanta,UDP,NCVPN-US-Atlanta-UDP.ovpn
+US,Boston,UDP,NCVPN-US-Boston-UDP.ovpn
+US,Charlotte,UDP,NCVPN-US-Charlotte-UDP.ovpn
+US,Chicago,UDP,NCVPN-US-Chicago-UDP.ovpn
+US,Cincinnati,UDP,NCVPN-US-Cincinnati-UDP.ovpn
+US,Dallas,UDP,NCVPN-US-Dallas-UDP.ovpn
+US,Denver,UDP,NCVPN-US-Denver-UDP.ovpn
+US,Detroit,UDP,NCVPN-US-Detroit-UDP.ovpn
+US,Houston,UDP,NCVPN-US-Houston-UDP.ovpn
+US,Las Vegas,UDP,NCVPN-US-Las Vegas-UDP.ovpn
+US,Los Angeles,UDP,NCVPN-US-Los Angeles-UDP.ovpn
+US,Miami,UDP,NCVPN-US-Miami-UDP.ovpn
+US,Minneapolis,UDP,NCVPN-US-Minneapolis-UDP.ovpn
+US,New Orleans,UDP,NCVPN-US-New Orleans-UDP.ovpn
+US,New York,UDP,NCVPN-US-New York-UDP.ovpn
+US,Phoenix,UDP,NCVPN-US-Phoenix-UDP.ovpn
+US,San Jose,UDP,NCVPN-US-San Jose-UDP.ovpn
+US,Seattle,UDP,NCVPN-US-Seattle-UDP.ovpn
+US,St Louis,UDP,NCVPN-US-St Louis-UDP.ovpn
+ZA,Johannesburg,UDP,NCVPN-ZA-Johannesburg-UDP.ovpn
+AE,Dubai,TCP,NCVPN-AE-Dubai-TCP.ovpn
+AL,Tirana,TCP,NCVPN-AL-Tirana-TCP.ovpn
+AR,Buenos Aires,TCP,NCVPN-AR-Buenos Aires-TCP.ovpn
+AT,Vienna,TCP,NCVPN-AT-Vienna-TCP.ovpn
+AU,Adelaide,TCP,NCVPN-AU-Adelaide-TCP.ovpn
+AU,Brisbane,TCP,NCVPN-AU-Brisbane-TCP.ovpn
+AU,Melbourne,TCP,NCVPN-AU-Melbourne-TCP.ovpn
+AU,Perth,TCP,NCVPN-AU-Perth-TCP.ovpn
+AU,Sydney,TCP,NCVPN-AU-Sydney-TCP.ovpn
+BE,Brussels,TCP,NCVPN-BE-Brussels-TCP.ovpn
+BG,Sofia,TCP,NCVPN-BG-Sofia-TCP.ovpn
+BR,Sao Paulo,TCP,NCVPN-BR-Sao Paulo-TCP.ovpn
+CA,Montreal,TCP,NCVPN-CA-Montreal-TCP.ovpn
+CA,Toronto,TCP,NCVPN-CA-Toronto-TCP.ovpn
+CA,Vancouver,TCP,NCVPN-CA-Vancouver-TCP.ovpn
+CH,Zurich,TCP,NCVPN-CH-Zurich-TCP.ovpn
+CL,Santiago,TCP,NCVPN-CL-Santiago-TCP.ovpn
+CO,Bogota,TCP,NCVPN-CO-Bogota-TCP.ovpn
+CR,San Jose,TCP,NCVPN-CR-San Jose-TCP.ovpn
+CZ,Prague,TCP,NCVPN-CZ-Prague-TCP.ovpn
+DE,Frankfurt,TCP,NCVPN-DE-Frankfurt-TCP.ovpn
+DK,Copenhagen,TCP,NCVPN-DK-Copenhagen-TCP.ovpn
+EE,Tallinn,TCP,NCVPN-EE-Tallinn-TCP.ovpn
+ES,Madrid,TCP,NCVPN-ES-Madrid-TCP.ovpn
+ES,Valencia,TCP,NCVPN-ES-Valencia-TCP.ovpn
+FI,Helsinki,TCP,NCVPN-FI-Helsinki-TCP.ovpn
+FR,Bordeaux,TCP,NCVPN-FR-Bordeaux-TCP.ovpn
+FR,Marseille,TCP,NCVPN-FR-Marseille-TCP.ovpn
+FR,Paris,TCP,NCVPN-FR-Paris-TCP.ovpn
+GR,Athens,TCP,NCVPN-GR-Athens-TCP.ovpn
+HK,Hong Kong,TCP,NCVPN-HK-Hong Kong-TCP.ovpn
+HR,Zagreb,TCP,NCVPN-HR-Zagreb-TCP.ovpn
+HU,Budapest,TCP,NCVPN-HU-Budapest-TCP.ovpn
+IE,Dublin,TCP,NCVPN-IE-Dublin-TCP.ovpn
+IL,Tel Aviv,TCP,NCVPN-IL-Tel Aviv-TCP.ovpn
+IN,Virtual,TCP,NCVPN-IN-Virtual-TCP.ovpn
+IS,Reykjavik,TCP,NCVPN-IS-Reykjavik-TCP.ovpn
+IT,Milan,TCP,NCVPN-IT-Milan-TCP.ovpn
+JP,Tokyo,TCP,NCVPN-JP-Tokyo-TCP.ovpn
+KR,Seoul,TCP,NCVPN-KR-Seoul-TCP.ovpn
+LU,Luxembourg,TCP,NCVPN-LU-Luxembourg-TCP.ovpn
+LV,Riga,TCP,NCVPN-LV-Riga-TCP.ovpn
+MD,Chisinau,TCP,NCVPN-MD-Chisinau-TCP.ovpn
+MX,Guadalajara,TCP,NCVPN-MX-Guadalajara-TCP.ovpn
+MY,Kuala Lumpur,TCP,NCVPN-MY-Kuala Lumpur-TCP.ovpn
+NL,Amsterdam,TCP,NCVPN-NL-Amsterdam-TCP.ovpn
+NO,Oslo,TCP,NCVPN-NO-Oslo-TCP.ovpn
+NZ,Auckland,TCP,NCVPN-NZ-Auckland-TCP.ovpn
+PE,Lima,TCP,NCVPN-PE-Lima-TCP.ovpn
+PL,Warsaw,TCP,NCVPN-PL-Warsaw-TCP.ovpn
+PT,Lisbon,TCP,NCVPN-PT-Lisbon-TCP.ovpn
+RO,Bucharest,TCP,NCVPN-RO-Bucharest-TCP.ovpn
+RS,Belgrade,TCP,NCVPN-RS-Belgrade-TCP.ovpn
+SE,Stockholm,TCP,NCVPN-SE-Stockholm-TCP.ovpn
+SG,Singapore,TCP,NCVPN-SG-Singapore-TCP.ovpn
+SI,Ljubljana,TCP,NCVPN-SI-Ljubljana-TCP.ovpn
+SK,Bratislava,TCP,NCVPN-SK-Bratislava-TCP.ovpn
+TR,Istanbul,TCP,NCVPN-TR-Istanbul-TCP.ovpn
+TW,Taipei,TCP,NCVPN-TW-Taipei-TCP.ovpn
+UK,Birmingham,TCP,NCVPN-UK-Birmingham-TCP.ovpn
+UK,Glasgow,TCP,NCVPN-UK-Glasgow-TCP.ovpn
+UK,London,TCP,NCVPN-UK-London-TCP.ovpn
+UK,Manchester,TCP,NCVPN-UK-Manchester-TCP.ovpn
+US,Ashburn,TCP,NCVPN-US-Ashburn-TCP.ovpn
+US,Atlanta,TCP,NCVPN-US-Atlanta-TCP.ovpn
+US,Boston,TCP,NCVPN-US-Boston-TCP.ovpn
+US,Charlotte,TCP,NCVPN-US-Charlotte-TCP.ovpn
+US,Chicago,TCP,NCVPN-US-Chicago-TCP.ovpn
+US,Cincinnati,TCP,NCVPN-US-Cincinnati-TCP.ovpn
+US,Dallas,TCP,NCVPN-US-Dallas-TCP.ovpn
+US,Denver,TCP,NCVPN-US-Denver-TCP.ovpn
+US,Detroit,TCP,NCVPN-US-Detroit-TCP.ovpn
+US,Houston,TCP,NCVPN-US-Houston-TCP.ovpn
+US,Las Vegas,TCP,NCVPN-US-Las Vegas-TCP.ovpn
+US,Los Angeles,TCP,NCVPN-US-Los Angeles-TCP.ovpn
+US,Miami,TCP,NCVPN-US-Miami-TCP.ovpn
+US,Minneapolis,TCP,NCVPN-US-Minneapolis-TCP.ovpn
+US,New Orleans,TCP,NCVPN-US-New Orleans-TCP.ovpn
+US,New York,TCP,NCVPN-US-New York-TCP.ovpn
+US,Phoenix,TCP,NCVPN-US-Phoenix-TCP.ovpn
+US,San Jose,TCP,NCVPN-US-San Jose-TCP.ovpn
+US,Seattle,TCP,NCVPN-US-Seattle-TCP.ovpn
+US,St Louis,TCP,NCVPN-US-St Louis-TCP.ovpn
+ZA,Johannesburg,TCP,NCVPN-ZA-Johannesburg-TCP.ovpn
