@@ -2,6 +2,12 @@
 name = "fvpnc"
 version = "0.1.0"
 edition = "2021"
+description = "An unofficial command-line client for Namecheap's FastVPN for Linux"
+homepage = "https://github.com/CyR1en/fvpnc"
+repository = "https://github.com/CyR1en/fvpnc"
+readme = "README.md"
+keywords = ["openvpn", "vpn", "cli"]
+categories = ["command-line-utilities"]
 
 [package.metadata]
 bundle-assets = ["res"]
