@@ -69,6 +69,15 @@ fn connect(sys: &System, city: &str, proto: Proto) {
     }
 }
 
+fn list_cities() {
+    let cities = utils::get_cities();
+    println!("Available cities:");
+    for city in cities {
+        println!("> {}", city);
+    }
+    println!("Use `fvpnc connect <city>` to connect to a server.");
+}
+
 #[cfg(unix)]
 fn main() -> Result<()> {
     match pre_check() {
@@ -83,6 +92,7 @@ fn main() -> Result<()> {
     match &args.command {
         Commands::Status => status(&sys),
         Commands::Disconnect => disconnect(&sys),
+        Commands::Cities => list_cities(),
         Commands::Connect { udp, tcp, server_city } => {
             let proto = if *udp && *tcp { Proto::TCP } else if *udp { Proto::UDP } else { Proto::TCP };
             connect(&sys, server_city, proto)

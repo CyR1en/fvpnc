@@ -68,12 +68,13 @@ fn prompt(prompt: &str) -> String {
 }
 
 #[derive(Deserialize)]
-struct VpnConfig {
-    protocol: String,
-    filename: String,
+pub(crate) struct VpnConfig {
+    pub(crate) city: String,
+    pub(crate) protocol: String,
+    pub(crate) filename: String,
 }
 
-fn parse_vpn_config() -> Vec<VpnConfig> {
+pub(crate) fn parse_vpn_config() -> Vec<VpnConfig> {
     // check if vpn_config.csv exists
     if !std::path::Path::new(CONFIG_CSV).exists() {
         download_csv();

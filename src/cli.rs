@@ -46,6 +46,9 @@ pub(crate) enum Commands {
     /// Status of the connection
     Status,
 
+    /// List all available cities
+    Cities,
+
     /// Disconnect from a server
     Disconnect,
 

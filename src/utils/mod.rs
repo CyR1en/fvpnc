@@ -2,6 +2,7 @@ use std::fmt::{Display, Formatter};
 use std::path::PathBuf;
 
 use crate::prelude::*;
+use crate::utils::sanity::parse_vpn_config;
 
 pub mod sanity;
 
@@ -30,5 +31,13 @@ pub fn find_config(city: &str, proto: Proto) -> Result<PathBuf> {
         }
     }
     Err(Error::Generic(format!("No config found for {}", city)))
+}
+
+pub fn get_cities() -> Vec<String> {
+    let config = parse_vpn_config();
+    let mut cities: Vec<String> = config.iter().map(|c| c.city.clone()).collect();
+    cities.sort();
+    cities.dedup();
+    cities
 }
 
