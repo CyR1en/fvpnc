@@ -54,7 +54,7 @@ fn connect(sys: &System, city: &str, proto: Proto) {
         return;
     }
 
-    match utils::find_config(city, Proto::TCP) {
+    match utils::find_config(city, proto) {
         Ok(path) => {
             let cmd = std::process::Command::new("openvpn")
                 .arg("--config")
