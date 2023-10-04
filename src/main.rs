@@ -94,7 +94,13 @@ fn main() -> Result<()> {
         Commands::Disconnect => disconnect(&sys),
         Commands::Cities => list_cities(),
         Commands::Connect { udp, tcp, server_city } => {
-            let proto = if *udp && *tcp { Proto::TCP } else if *udp { Proto::UDP } else { Proto::TCP };
+            let proto = if !(*udp ^ *tcp) {
+                Proto::UDP // default to UDP if both is true or false
+            } else {
+                // if xor is true, then one of them is true
+                if *udp { Proto::UDP } else { Proto::TCP }
+            };
+
             connect(&sys, server_city, proto)
         }
     }
