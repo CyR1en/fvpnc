@@ -9,6 +9,7 @@ use sudo::{check, RunningAs};
 use crate::prelude::*;
 
 pub const CONFIG_DIR: &str = "/etc/fvpnc";
+pub const CONFIG_CSV: &str = "/etc/fvpnc/vpn_config.csv";
 pub const CONFIG_PATH: &str = "/etc/fvpnc/creds.txt";
 
 pub fn pre_check() -> Result<String> {
@@ -74,8 +75,12 @@ struct VpnConfig {
     filename: String,
 }
 
-fn parse_vpn_config(path: &str) -> Vec<VpnConfig> {
-    let mut rdr = csv::Reader::from_path(path).unwrap();
+fn parse_vpn_config() -> Vec<VpnConfig> {
+    // check if vpn_config.csv exists
+    if !std::path::Path::new(CONFIG_CSV).exists() {
+        download_csv();
+    }
+    let mut rdr = csv::Reader::from_path(CONFIG_CSV).unwrap();
     rdr.deserialize().map(|result| {
         let config: VpnConfig = result.unwrap();
         config
@@ -83,7 +88,7 @@ fn parse_vpn_config(path: &str) -> Vec<VpnConfig> {
 }
 
 fn init_configurations() {
-    let configs = parse_vpn_config("res/vpn_config.csv");
+    let configs = parse_vpn_config();
 
     let mut has_missing = false;
     for config in configs {
@@ -180,9 +185,20 @@ fn unzip() {
     fs::remove_file("/tmp/groupedServerList.zip").unwrap();
 }
 
+// get cvs from https://raw.githubusercontent.com/CyR1en/fvpnc/master/res/vpn_config.csv
+fn download_csv() {
+    download_file("https://raw.githubusercontent.com/CyR1en/fvpnc/master/res/vpn_config.csv",
+                  CONFIG_CSV,
+    );
+}
+
 fn download_configs() {
-    let resp = reqwest::blocking::get("https://vpn.ncapi.io/groupedServerList.zip").expect("request failed");
+    download_file("https://vpn.ncapi.io/groupedServerList.zip", "/tmp/groupedServerList.zip")
+}
+
+fn download_file(url: &str, path: &str) {
+    let resp = reqwest::blocking::get(url).expect("request failed");
     let body = resp.bytes().expect("body invalid");
-    let mut zip = File::create("/tmp/groupedServerList.zip").expect("failed to create file");
-    zip.write_all(&body).expect("failed to write file");
+    let mut file = File::create(path).expect("failed to create file");
+    file.write_all(&body).expect("failed to write file");
 }
