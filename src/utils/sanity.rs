@@ -130,7 +130,7 @@ fn unzip() {
     let paths = vec!["/etc/openvpn/tcp", "/etc/openvpn/udp"];
     for path in paths {
         if !std::path::Path::new(path).exists() {
-            fs::create_dir(path).unwrap();
+            fs::create_dir_all(path).unwrap();
         }
     }
 
@@ -195,6 +195,12 @@ fn download_configs() {
 }
 
 fn download_file(url: &str, path: &str) {
+    // ensure folder where to download exists
+    let parent = std::path::Path::new(path).parent().unwrap();
+    if !parent.exists() {
+        fs::create_dir_all(parent).unwrap();
+    }
+
     let resp = reqwest::blocking::get(url).expect("request failed");
     let body = resp.bytes().expect("body invalid");
     let mut file = File::create(path).expect("failed to create file");
