@@ -1,6 +1,6 @@
 [package]
 name = "fvpnc"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "An unofficial command-line client for Namecheap's FastVPN for Linux"
 homepage = "https://github.com/CyR1en/fvpnc"
