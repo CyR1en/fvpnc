@@ -1,7 +1,5 @@
-#![allow(unused)]
-
-use std::io::stdout;
 use sysinfo::{Pid, Process, ProcessExt, System, SystemExt};
+
 use crate::cli::Commands;
 use crate::prelude::*;
 use crate::utils::Proto;
@@ -42,7 +40,7 @@ fn disconnect(sys: &System) {
         return;
     }
 
-    let cmd = std::process::Command::new("killall")
+    std::process::Command::new("killall")
         .arg("openvpn")
         .output().unwrap();
     println!("Disconnected from FastVPN Server.")
@@ -56,7 +54,7 @@ fn connect(sys: &System, city: &str, proto: Proto) {
 
     match utils::find_config(city, proto) {
         Ok(path) => {
-            let cmd = std::process::Command::new("openvpn")
+            std::process::Command::new("openvpn")
                 .arg("--config")
                 .arg(path.into_os_string().into_string().unwrap())
                 .arg("--daemon")

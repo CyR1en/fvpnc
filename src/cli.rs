@@ -1,5 +1,6 @@
 use std::{env, io};
 use std::ffi::OsString;
+
 use clap::{Parser, Subcommand};
 
 pub(crate) fn parse() -> CLI {

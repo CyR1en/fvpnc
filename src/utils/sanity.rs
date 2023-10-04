@@ -1,11 +1,11 @@
 use fs::Permissions;
-use std::fs::File;
 use std::{fs, io};
+use std::fs::File;
 use std::io::{stdin, Write};
-use std::string::FromUtf8Error;
-use regex::{Match, Regex};
+
+use regex::Regex;
 use serde::Deserialize;
-use sudo::{check, RunningAs};
+
 use crate::prelude::*;
 
 pub const CONFIG_DIR: &str = "/etc/fvpnc";
@@ -13,7 +13,7 @@ pub const CONFIG_CSV: &str = "/etc/fvpnc/vpn_config.csv";
 pub const CONFIG_PATH: &str = "/etc/fvpnc/creds.txt";
 
 pub fn pre_check() -> Result<String> {
-    sudo::escalate_if_needed();
+    let _ = sudo::escalate_if_needed();
     init_configurations();
     check_creds();
     check_o_vpn()
@@ -67,10 +67,8 @@ fn prompt(prompt: &str) -> String {
     out
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Deserialize)]
 struct VpnConfig {
-    country: String,
-    city: String,
     protocol: String,
     filename: String,
 }
@@ -115,7 +113,6 @@ fn init_configurations() {
             download_configs();
             unzip();
         } else if input.to_lowercase() == "n" {
-            valid = true;
             println!(r#"
                       Please download the missing configuration files from https://vpn.ncapi.io/groupedServerList.zip
                       and extract the contents to /etc/openvpn/tcp and /etc/openvpn/udp respectively."#);
